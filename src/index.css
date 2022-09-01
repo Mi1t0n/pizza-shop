@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-category {
+        @apply w-fit rounded-[30px]  font-[700] text-[16px] h-[46px] px-[26px] border-[1px] border-[#282828]  cursor-pointer;
+    }
+    .btn-category {
+        @apply w-fit rounded-[30px]  font-[700] text-[16px] h-[46px] px-[26px] border-[1px] border-[#282828]  cursor-pointer;
+    }
+    .btn-page {
+        @apply border-[1px] border-[#FE5F1E] bg-transparent  text-[#FE5F1E]  cursor-not-allowed;
+    }
+}
